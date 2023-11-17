@@ -1,7 +1,7 @@
 # findwraper
 a shell wraper for find with short options, type much less words
 
--q output find command, some redundancy is necessary, capitalization means '-not', @ means '-and', % means '-or', & means 'not case sensitive' for ipath iname iregex, -x to run commands divided by \n, short option meaning check the naming in script and zsh completion file _f.sh.
+-q output find command, some redundancy is necessary, capitalization means '-not', @ means '-and', % means '-or', & means 'not case sensitive' for ipath iname iregex, -x to run commands divided by \n, check the naming in script and zsh completion file _f.sh.
 ```
 % f.sh -n '*rc' -q 
 find . -iregex '.*' -and \( -name '*rc' \) 
